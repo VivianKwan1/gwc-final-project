@@ -1,0 +1,435 @@
+/* Add a black background color to the top navigation */
+.topnav {
+ background-color: transparent;
+ overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+ float: right;
+ color: #f2f2f2;
+ /* text-align: center; */
+ padding: 1.5em 0.8em;
+ text-decoration: none;
+ font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+ /* background-color: #ddd; */
+ color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+ background-color: transparent;
+ color: black;
+}
+
+.title {
+    letter-spacing: .5em;
+    text-align: center;
+    color: white;
+    font-size:120px;
+/*    margin: 80px 0px 80px 80px; */
+    align-content: center;
+}
+
+.button {
+  text-align: center;
+  margin:0 0 2.8em 0;
+}
+
+.orangeGirl {
+  background: url("bigJam.jpg");
+  background-repeat: no-repeat;
+  background-position: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+.page {
+    margin: 0em;
+    font-family: 'Questrial', sans-serif;
+    text-align:center;
+}
+
+.topnavOrange {
+  background: url("bigJam.jpg");
+  background-repeat: no-repeat;
+/*  background-position: no-repeat;*/
+  background-size: cover;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnavOrange a {
+ float: right;
+ color: #f2f2f2;
+ /* text-align: center; */
+ padding: 1.5em 0.8em;
+ text-decoration: none;
+ font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnavOrange a:hover {
+ /* background-color: #ddd; */
+ color: black;
+ text-decoration:none;
+}
+
+/* Add a color to the active/current link */
+.topnavOrange a.active {
+ background-color: transparent;
+ color: black;
+}
+
+body{
+  font-family: 'Questrial', sans-serif;
+  color:black;
+}
+
+.myButton {
+  background-color:transparent;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:2px solid black;
+  display:inline-block;
+  cursor:pointer;
+  color:black;
+  font-family: 'Questrial', sans-serif;
+  font-size:19px;
+  padding:12px 12px;
+  text-decoration:none;
+  letter-spacing: 3px;
+  margin: 20px 0 20px 750px;
+  /* text-shadow:0px 1px 0px #ffffff; */
+}
+
+.myButton:hover {
+   color:white;
+   border:2px solid white;
+}
+
+.myButton:active {
+   position:relative;
+   top:1px;
+}
+
+.container {
+ margin: 0 0 0 80px;
+}
+
+.pageText {
+    margin: 40px 250px 40px 250px;
+}
+
+.pageTitle {
+    letter-spacing: .5em;
+    font-size:50px;
+    text-align: center;
+    margin: 40px 0 40px 20px;
+}
+
+.logo {
+  height:50px;
+  margin:10px 25px 10px 25px;
+}
+
+.resizeCarousel {
+  width:700px;
+  margin: 40px 0 0 75px;
+}
+
+.playlist {
+  text-align:center;
+  margin: 0 30px 0 0;
+}
+
+.myOrangeButton {
+   background-color:transparent;
+   -moz-border-radius:20px;
+   -webkit-border-radius:20px;
+   border-radius:20px;
+   border:2px solid black;
+   display:inline-block;
+   cursor:pointer;
+   color:black;
+   font-family: 'Questrial', sans-serif;
+   font-size:12px;
+   padding:6px 12px;
+   text-decoration:none;
+   letter-spacing: 3px;
+   /* text-shadow:0px 1px 0px #ffffff; */
+}
+
+.myOrangeButton:hover {
+   color:white;
+   background-color:orange;
+   border:2px solid white;
+   text-decoration:none;
+}
+
+.myOrangeButton:active {
+   position:relative;
+   top:1px;
+}
+
+.pageTextBio {
+  margin: 30px 200px 30px 200px;
+}
+
+.logobutton {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  text-align: left;
+}
+
+#leftImage {
+  margin-right: 30px;
+}
+
+#rightImage {
+  margin-left: 30px;
+}
+
+.image {
+  height: 300px;
+}
+
+.imageText {
+  top: 50%;
+/*  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);*/
+}
+
+.missionstatement {
+ color: white;
+ font-family: 'Questrial', sans-serif;
+ font-size:20px;
+ width: 450px;
+ margin:  60px 0 60px 700px;
+}
+
+.stickfigures {
+  width:470px;
+  align-content: center;
+  margin:0 0 0 260px;
+}
+
+.credits {
+  color:white;
+  background-color: black;
+}
+
+.creditText {
+  margin: 40px 150px 40px 150px;
+  line-height: 24px;
+}
+
+.blackQuizPage {
+    margin: 0px;
+    font-family: 'Questrial', sans-serif;
+    background-color: black;
+}
+
+strong {
+  font-size:30px;
+}
+
+
+
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  min-height: 100px;
+  border: 1px solid;
+  border-color:white;
+}
+
+.wrapContent {
+  display: table;
+  width: 100%;
+}
+
+.wrapContent > div {
+  display: table-cell;
+}
+
+.leftContent,
+.centerContent,
+.rightContent {
+  width: 33.3%;
+  align-content: center;
+}
+
+.divider {
+  border-left: 25px solid;
+  color:white;
+}
+
+.inspirationWriting_Title{
+  color: black;
+  font-family:  'Questrial', sans-serif;
+  font-size: 15px;
+  margin: 0 auto;
+  text-align:center;
+  letter-spacing: 3px;
+}
+
+.inspirationWriting_Body{
+  color: black;
+  font-family:  'Questrial', sans-serif;
+  font-size: 15px;
+  margin: 0 auto;
+  text-align:center;
+  letter-spacing: 3px;
+}
+
+.inspirationWriting_End{
+  color: black;
+  font-family:  'Questrial', sans-serif;
+  font-size: 15px;
+  margin: 0 auto;
+  text-align:center;
+  letter-spacing: 3px;
+}
+
+
+.newContainer {
+  max-width: 960px;
+  margin: 0 auto;
+  background: white;
+  font-size:24px;
+  padding:25px;
+}
+
+.parallax {
+  background: url('concert.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment:fixed;
+  height:500px;
+}
+
+.parallaxPlaylist {
+  margin: 0 0 0 0px;
+}
+
+.parallax2 {
+  background: url('yellowman.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment:fixed;
+  height:500px;
+}
+
+.parallax3 {
+  background: url('cassette.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment:fixed;
+  height:500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+[type=radio] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+[type=radio] + img {
+  cursor: pointer;
+}
+
+/* CHECKED STYLES */
+[type=radio]:checked + img {
+  outline: 1px solid orange;
+  filter: drop-shadow(5px 1px 5px orange) contrast(130%);
+}
+
+
+
+
+
+
+
+
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-grid-thirds .col {
+  width: 50%;
+}
+
+@media (max-width: 400px) {
+  .flex-grid,
+  .flex-grid-thirds {
+    display: block;
+    .col {
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+}
+.flex-grid {
+  margin: 0 0 20px 0;
+}
+.col {
+  padding: 20px;
+}
+
+.playlistDescription {
+  text-align:left;
+}
+
+
+
+
+.biothirds {
+  display: flex;
+  justify-content: space-between;
+}
+
+.biothirds .col{
+  width: 32%;
+}
+
+
+.square {
+  object-fit: cover;
+  width:250px;
+  height:250px;
+}
